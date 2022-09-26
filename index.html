@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giphy API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg nabvarlight bg-light">
+        <div class="container-fluid">
+            <img src="data:image/png;base64,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" alt="" width="100">
+            <form class="d-flex" action="">
+                <input type="text" class="form-control me-2" id="busqueda" placeholder="buscar">
+                <button type="button" id="btn" class="btn btn-primary">OK</button>
+            </form>
+        </div>
+    </div>
+    <div class="container mt-5">
+      <div id="card" class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+        
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
